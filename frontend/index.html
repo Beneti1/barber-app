@@ -1,0 +1,25 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Rezervo Termin</title>
+</head>
+<body>
+    <h1>Rezervo Termin te Berberi 💈</h1>
+
+    <form id="terminForm">
+        <input type="text" name="emri" placeholder="Emri" required /><br />
+        <input type="date" name="data" required /><br />
+        <input type="time" name="ora" required /><br />
+        <input type="text" name="telefoni" placeholder="Telefoni" /><br />
+        <button type="submit">Dergo</button>
+    </form>
+
+    <h2>Terminet e Rezervuara</h2>
+    <ul id="terminetList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

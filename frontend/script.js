@@ -1,4 +1,4 @@
-// frontend/script.js
+
 const form = document.getElementById('terminForm');
 const lista = document.getElementById('terminetList');
 
